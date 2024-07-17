@@ -56,7 +56,7 @@
     "hostingPlanName": "[format('hostingplan{0}', uniqueString(resourceGroup().id))]",
     "websiteName": "[format('SchoolAPI{0}', uniqueString(resourceGroup().id))]",
     "sqlserverName": "[format('sqlServer{0}', uniqueString(resourceGroup().id))]",
-    "databaseName": "Student"
+    "databaseName": "Db_SchoolManagement"
   },
   "resources": [
     {
