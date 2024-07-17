@@ -17,7 +17,10 @@ namespace SchoolManagement.API.Controllers
         {
             _StudentServices = StudentServices;
         }
-
+        /// <summary>
+        /// Api to retrive list of students
+        /// </summary>
+        /// <returns>List of students registered</returns>
         // GET: api/<StudentController>
         [HttpGet]
         public IActionResult Get()
