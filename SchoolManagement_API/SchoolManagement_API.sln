@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolManagement.Service", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolManagement.UnitTest", "..\Schoolmanagement.UnitTest\SchoolManagement.UnitTest.csproj", "{AD1F14FE-1BA0-4637-AFE6-5DB978EE08C2}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SchoolManagement.Database", "..\SchoolManagement.Database\SchoolManagement.Database.sqlproj", "{F7DC47C1-0C5C-48D1-9420-5E111B7058DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,12 @@ Global
 		{AD1F14FE-1BA0-4637-AFE6-5DB978EE08C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD1F14FE-1BA0-4637-AFE6-5DB978EE08C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD1F14FE-1BA0-4637-AFE6-5DB978EE08C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7DC47C1-0C5C-48D1-9420-5E111B7058DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7DC47C1-0C5C-48D1-9420-5E111B7058DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7DC47C1-0C5C-48D1-9420-5E111B7058DF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F7DC47C1-0C5C-48D1-9420-5E111B7058DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7DC47C1-0C5C-48D1-9420-5E111B7058DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7DC47C1-0C5C-48D1-9420-5E111B7058DF}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
