@@ -16,7 +16,7 @@ builder.Services.AddTransient<IStudentService, StudentService>();
 builder.Services.AddScoped(typeof(ISchoolRepo<>), typeof(SchoolRepo<>));
 
 var app = builder.Build();
-
+//always open swagger page
 // Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment())
 //{
