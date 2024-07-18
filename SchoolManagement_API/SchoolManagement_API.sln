@@ -13,12 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolManagement.Service", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolManagement.UnitTest", "..\Schoolmanagement.UnitTest\SchoolManagement.UnitTest.csproj", "{AD1F14FE-1BA0-4637-AFE6-5DB978EE08C2}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SchoolManagement.Database", "..\SchoolManagement.Database\SchoolManagement.Database.sqlproj", "{F7DC47C1-0C5C-48D1-9420-5E111B7058DF}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SchoolCloud.InfrastructureSetup", "SchoolCloud.InfrastructureSetup", "{BE8AF185-91D1-4F42-8657-3735939ECF8C}"
-EndProject
-Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "SchoolManagement.AzureResourceGroup", "..\SchoolManagement.AzureResourceGroup\SchoolManagement.AzureResourceGroup.deployproj", "{54ED51A3-747E-443A-A874-839ADFEDEC27}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,22 +39,9 @@ Global
 		{AD1F14FE-1BA0-4637-AFE6-5DB978EE08C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD1F14FE-1BA0-4637-AFE6-5DB978EE08C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD1F14FE-1BA0-4637-AFE6-5DB978EE08C2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F7DC47C1-0C5C-48D1-9420-5E111B7058DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7DC47C1-0C5C-48D1-9420-5E111B7058DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7DC47C1-0C5C-48D1-9420-5E111B7058DF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{F7DC47C1-0C5C-48D1-9420-5E111B7058DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F7DC47C1-0C5C-48D1-9420-5E111B7058DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F7DC47C1-0C5C-48D1-9420-5E111B7058DF}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{54ED51A3-747E-443A-A874-839ADFEDEC27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54ED51A3-747E-443A-A874-839ADFEDEC27}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54ED51A3-747E-443A-A874-839ADFEDEC27}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54ED51A3-747E-443A-A874-839ADFEDEC27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{54ED51A3-747E-443A-A874-839ADFEDEC27} = {BE8AF185-91D1-4F42-8657-3735939ECF8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA1A96B7-D484-4EF9-B262-C983207A205A}
