@@ -16,12 +16,19 @@ builder.Services.AddTransient<IStudentService, StudentService>();
 builder.Services.AddScoped(typeof(ISchoolRepo<>), typeof(SchoolRepo<>));
 
 var app = builder.Build();
-//always open swagger page
+
 // Configure the HTTP request pipeline.
-//if (app.Environment.IsDevelopment())
-//{
-    app.UseSwagger();
+app.UseSwagger();
+if (app.Environment.IsDevelopment())
+{
     app.UseSwaggerUI();
+}
+
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("../swagger/v1/swagger.json", "SchoolManagement API v1");
+    c.RoutePrefix = string.Empty;// Set Swagger UI at apps root
+});
 //}
 
 app.UseHttpsRedirection();
