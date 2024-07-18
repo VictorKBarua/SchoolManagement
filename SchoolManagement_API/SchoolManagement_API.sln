@@ -14,6 +14,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolManagement.UnitTest", "..\Schoolmanagement.UnitTest\SchoolManagement.UnitTest.csproj", "{AD1F14FE-1BA0-4637-AFE6-5DB978EE08C2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".ci", ".ci", "{31FAA7C8-A2A6-406C-AD2A-B7C6CC351948}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\victo\OneDrive\Desktop\branchci.yml = C:\Users\victo\OneDrive\Desktop\branchci.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
