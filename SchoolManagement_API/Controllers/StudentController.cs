@@ -3,7 +3,6 @@ using SchoolManagement.Domain;
 using SchoolManagement.Service.StudentService;
 using System.Security.Cryptography;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace SchoolManagement.API.Controllers
 {
