@@ -13,8 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    variables:
-      RestoreBuildProjects: '**/*.csproj'
+    
 
     steps:
     - uses: actions/checkout@v2
