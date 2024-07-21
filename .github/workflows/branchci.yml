@@ -24,13 +24,13 @@ jobs:
         dotnet-version: '6.x'
 
     - name: Restore
-      run: dotnet restore ${{ github.workspace }}/'**/*.csproj'
+      run: dotnet restore ${{ github.workspace }}/**/*.csproj
 
     - name: Build
-      run: dotnet build ${{ github.workspace }}/'**/*.csproj' --configuration Release
+      run: dotnet build ${{ github.workspace }}/**/*.csproj --configuration Release
 
     - name: Test
-      run: dotnet test ${{ github.workspace }}/'**/*[Tt]est/*.csproj' --configuration Release
+      run: dotnet test ${{ github.workspace }}/**/*[Tt]est/*.csproj --configuration Release
 
     - name: Publish
-      run: dotnet publish ${{ github.workspace }}/'**/*.csproj' --configuration Release --output ${{ github.workspace }}/build_output
+      run: dotnet publish ${{ github.workspace }}/**/*.csproj --configuration Release --output ${{ github.workspace }}/build_output
