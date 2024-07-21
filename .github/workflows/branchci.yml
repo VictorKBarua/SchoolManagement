@@ -24,7 +24,7 @@ jobs:
         dotnet-version: '6.x'
 
     - name: Restore
-      run: dotnet restore ${{ github.workspace }}/**/*.csproj
+      run: dotnet restore ${{ github.workspace }}/SchoolManagement.API/*.csproj
 
     - name: Build
       run: dotnet build ${{ github.workspace }}/**/*.csproj --configuration Release
