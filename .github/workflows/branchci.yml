@@ -1,5 +1,5 @@
 # Script runs on PR targeted at the main branch
-name: CI
+name: new branch CI
 
 on:
   push:
