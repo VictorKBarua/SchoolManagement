@@ -7,7 +7,7 @@ on:
       - 'feature/*' # CI request triggers for all branches that start with feature/
 
 # Uncomment the following line if you want to disable pull request triggers
-# pr: none
+pr: none
 
 jobs:
   build:
