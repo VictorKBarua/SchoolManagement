@@ -1,4 +1,4 @@
-# Script runs on PR targeted at the main branch
+# Script runs on Push targeted at the new branch
 name: new branch CI
 
 on:
