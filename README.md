@@ -1,7 +1,7 @@
 <h2>#School Management API application (.Net core onion architecture)</h2>
 <h4>School Management is an api interface based .net core project designed based on onion architecture. We can start api integration from the first day without spending time on creating skeleton of the project.</h4> <br/>
 
- ![OnionArchitecture](https://github.com/VictorKBarua/Webcast-Euronext_Assignment/assets/57985914/d25f4cc3-feb0-43c4-a147-f8e4599f16b3)
+ ![OnionArchitecture](https://github.com/user-attachments/assets/cc2d2a23-417e-4f87-b9c6-76ff82482f33)
 <br/> <h3>Advantages of having Onion Architecture. </h3> 
 <li>- Testibility: Unit test can be created for separate layers without an effect of other modules of the application. </li>
 <li>- Loose Coupling: Loosely coupled application as the outer layer of the application always communicates with the inner layer via interfaces. </li>
